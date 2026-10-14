@@ -1,0 +1,17 @@
+{
+  "name": "wanderease-tourism-management-system",
+  "version": "2.0.0",
+  "description": "Responsive Tourism Management System with MySQL database",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "mysql2": "^3.11.5"
+  }
+}
